@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>475</width>
+    <height>326</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Edicion de Materia</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="materiae">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>421</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="placeholderText">
+     <string>ej.Metodos Matematicos III</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Hora de inicio</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Nombre de la Materia</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="diafe">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>200</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Lunes</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Martes</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Miercoles</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jueves</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Viernes</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sabado</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="seccione">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>260</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>ej.D21</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="horafe">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>140</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>8:00 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9:00 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10:00 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11:00 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12:00 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22:00</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Seccion</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>180</y>
+      <width>21</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>10</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; text-decoration: underline;&quot;&gt;Edicion de Materia&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="diaie">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>200</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Lunes</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Martes</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Miercoles</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jueves</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Viernes</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sabado</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>140</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Hora Final</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="horaie">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>140</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <item>
+     <property name="text">
+      <string>7:00 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8:00 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9:00 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10:00 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11:00 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12:00 </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20:00</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21:00</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Dias de las sesiones</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="guardare">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>290</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+</string>
+    </property>
+    <property name="text">
+     <string>Guardar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancelare">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>290</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+</string>
+    </property>
+    <property name="text">
+     <string>Cancelar</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>120</y>
+      <width>21</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">alternate-background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>cancelare</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>417</x>
+     <y>301</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>237</x>
+     <y>162</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
